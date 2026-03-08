@@ -1,0 +1,27 @@
+{
+    "name": "pageflowkit",
+    "version": "1.0.6",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "type": "module",
+    "files": [
+        "dist",
+        "src/globals.css"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc & copyfiles -u 1 src/globals.css dist"
+    },
+    "keywords": ["pagination", "react", "next"],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "peerDependencies": {
+        "lucide-react": "^0.577.0",
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0"
+    },
+    "devDependencies": {
+        "copyfiles": "^2.4.1"
+    }
+}
