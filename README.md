@@ -2,6 +2,8 @@
 
 A lightweight, fully customizable **React pagination component** with support for page limits, active page styling, responsive layout, and dropdown for per-page selection. Built with **native CSS** (no Tailwind or external UI libraries required). Perfect for SaaS dashboards and apps.  
 
+<img src="https://res.cloudinary.com/dpacclyw4/image/upload/v1773164263/pageflowkit_gcz5dp.jpg" alt="pageflowkit banner"/>
+
 ---
 
 ## ⚡ Features
@@ -18,14 +20,13 @@ A lightweight, fully customizable **React pagination component** with support fo
 ## 📦 Installation
 
 ```bash
-npm i pageflowkit -f
+npm i pageflowkit
 
 
 "use client";
 
 import React, { useState } from "react";
 import { Pagination } from "pageflowkit";
-import "my-pagination/dist/globals.css";
 
 const App = () => {
   const [pagination, setPagination] = useState({
