@@ -13,9 +13,10 @@
         "build": "tsc & copyfiles -u 1 src/globals.css dist"
     },
     "keywords": ["pagination", "react", "next"],
-    "author": "",
+    "author": "Someswar gorai",
     "license": "ISC",
-    "description": "",
+    "description": "A lightweight, fully customizable React pagination component with support for page limits, active page styling, responsive layout, and dropdown for per-page selection. Built with native CSS (no Tailwind or external UI libraries required). Perfect for SaaS dashboards and apps.",
+    "repository":"https://github.com/someswargorai/pageflowkit.git",
     "peerDependencies": {
         "react": ">=18",
         "react-dom": ">=18",
